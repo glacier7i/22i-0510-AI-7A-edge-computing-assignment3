@@ -1,0 +1,6 @@
+model,accuracy_pct,file_size_mb,gzip_size_mb,params_m,nonzero_params_m,macs_m,cpu_latency_ms_bs1,cpu_throughput_img_s_bs128,gpu_latency_ms_bs1
+fp32,93.69,42.69,39.6,11.17,11.17,555,10.42,317,1.8
+ptq_int8,93.7,10.89,9.69,11.17,11.17,555,22.73,1543,
+qat_int8,93.69,10.89,9.69,11.17,11.17,555,35.38,421,
+unstructured,93.53,42.7,7.69,11.17,1.13,555,10.47,151,4.56
+structured,93.91,21.73,20.13,5.68,5.68,282,3.12,269,1.94

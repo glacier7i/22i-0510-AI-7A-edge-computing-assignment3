@@ -1,0 +1,6 @@
+# dataset (downloaded automatically when missing)
+data/
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

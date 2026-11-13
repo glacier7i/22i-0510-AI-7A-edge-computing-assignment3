@@ -1,0 +1,5 @@
+onnx_model,accuracy_pct,file_size_mb,cpu_latency_ms_bs1,cpu_throughput_img_s_bs128
+fp32.onnx,93.69,42.62,2.77,449
+fp32_int8.onnx,93.79,10.71,0.9,1480
+structured.onnx,93.91,21.66,1.33,872
+unstructured.onnx,93.53,42.62,2.47,465
